@@ -1,1 +1,3 @@
-# web-calculator
+# Web calculator
+
+![](https://cdn.discordapp.com/attachments/968157912843288606/1234136871735656539/image.png?ex=662fa307&is=662e5187&hm=378152e428c540ea75e4acf3bed77f27e16418911fcf8c01719a8d911f662542&)
