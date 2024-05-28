@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
+
+* {
+    font-family: "Nunito";
+    transition: all 0.5s ease;
+}
+
+body {
+    background-color: #333333FF;
+}
+
+button {
+    color: white;
+    width: 100%;
+    height: 45px;
+    font-size: 20px;
+    border-radius: 3px;
+    border: 2px solid #4d4c4c;
+    background-color: rgba(77, 76, 76, 0.5);
+
+    &:hover {
+        background-color: #545252;
+    }
+}
+
+#buttons {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 2px;
+    padding: 5px;
+}
+
+.sqrt {
+    font-family: Calibri;
+    font-size: 25px;
+}
+
+.equally {
+    background-color: rgba(0, 154, 203, 0.5);
+    border: 2px solid #009acb;
+
+    &:hover {
+        background-color: #008bb4;
+    }
+}
+
+.c {
+    background-color: rgba(255, 0, 0, 0.5);
+    border: 2px solid #c00000;
+
+    &:hover {
+        background-color: #ab0000;
+    }
+}
+
+.backspace {
+    background-color: rgba(192, 45, 0, 0.5);
+    border: 2px solid #c02d00;
+
+    &:hover {
+        background-color: #b02b00;
+    }
+}
+
+.math-action-btn {
+    background-color: rgba(63, 63, 63, 0.5);
+    border: 2px solid #3f3f3f;
+
+    &:hover {
+        background-color: #424242;
+    }
+}
+
+#expression {
+    border-radius: 6px;
+    border: None;
+    width: 100%;
+    height: 50px;
+    text-align: left;
+    background-color: transparent /*#414141*/;
+    font-size: 33px;
+    color: white;
+}

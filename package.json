@@ -1,0 +1,14 @@
+{
+  "name": "calc",
+  "version": "1.0.0",
+  "main": "src/app.js",
+  "scripts": {
+    "start": "electron . --no-sandbox"
+  },
+  "author": "SuperFeda",
+  "license": "MIT",
+  "description": "",
+  "dependencies": {
+    "electron": "^30.0.8"
+  }
+}
